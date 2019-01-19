@@ -10,6 +10,6 @@ really simple. It's finding the greatest common divisor between two numbers a an
 1. we set r = a % b.
 1. r == 0 and a > 0 that means a is a multiple of b which makes gcd(a,b) = b.we're done.
 2. if r != 0 Since a % b == r % b we can say that (a - r) % b == 0, or b evenly divides a - r.
-3. Now we can have bx = a - r or bx - a = r (where x is some integer). if d divides a and b, then it also divides r and b, and if
+3. Now we can have bx + r = a or bx - a = r (where x is some integer). if d divides a and b, then it also divides r and b, and if
 it divides r and b, then it also divides a and b. Therefore gcd(a,b) == gcd(r,b).
 
