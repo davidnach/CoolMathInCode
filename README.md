@@ -3,7 +3,7 @@ code that is inspired by math which i consider to be neat.
 
 # euclidean algorithm
 
-Just by looking at the code for this, it might not be too obvious what's going on here. It's finding the greatest common divisor between two numbers a and b. Here's an of the algorithm
+Just by looking at the code for this, it might not be too obvious what's going on here. It's finding the greatest common divisor between two numbers a and b. Here's an explanation of the algorithm
 
 (assuming a > b)
 1. we set r = a % b.
